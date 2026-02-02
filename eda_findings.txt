@@ -1,0 +1,16 @@
+EDA Findings – House Price India Dataset
+
+1. The dataset contains information related to house properties and their prices in India.
+2. Initial inspection showed a mix of numeric and categorical features.
+3. Descriptive statistics revealed that house prices have a wide range and are right-skewed.
+4. Missing value analysis showed minimal or no missing data in most columns.
+5. Histograms and boxplots were used to understand distributions and detect anomalies.
+6. Outliers in the Price column were identified using the Interquartile Range (IQR) method.
+7. Instead of removing outliers, capping was applied to preserve valid high-end properties.
+8. Correlation analysis showed strong positive relationships between price and area/size-related features.
+9. A cleaned version of the dataset was created for further analysis and modeling.
+
+Final Outcome:
+- Practical Exploratory Data Analysis completed
+- Outliers detected and handled appropriately
+- Clean dataset prepared for downstream tasks
